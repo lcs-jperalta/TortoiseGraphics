@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='raw'>
+<playground version='6.0' target-platform='macos' display-mode='raw' executeOnSourceChanges='false'>
     <pages>
+        <page name='Untitled Page 2'/>
+        <page name='Starting Code'/>
+        <page name='Custom Rotations Design'/>
+        <page name='Methods Example'/>
+        <page name='oct 16 hw exercise 1'/>
         <page name='With a tortoise'/>
-        <page name='With 2 tortoises'/>
+        <page name='Untitled Page'/>
     </pages>
 </playground>
