@@ -17,5 +17,18 @@ public extension Tortoise {
         }
     self.penUp()
     }
-
+    func hairball(withXcor: Double, withYcor: Double) {
+        for _ in 1...15 {
+            // Go to
+            self.goto(withXcor, withYcor)
+            // Let statements
+            let heading = self.random(360)
+            let size = self.random(5)
+            // Set heading
+            self.setHeading(heading)
+            // Wave
+            self.curve(withSides: 100, withSize: size, drawSides: 20)
+            self.curve(withSides: -100, withSize: size, drawSides: 20)
+        }
+    }
 }

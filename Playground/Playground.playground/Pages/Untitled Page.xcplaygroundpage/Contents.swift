@@ -8,10 +8,6 @@ canvas.frameRate = 120
 canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
-// Drawing
-canvas.drawing { turtle in
-    for _ in 1...4 {
-        turtle.forward(100)
-        turtle.right(90)
+
     }
 }
