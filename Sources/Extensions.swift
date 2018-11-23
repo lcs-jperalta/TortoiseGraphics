@@ -17,7 +17,7 @@ public extension Tortoise {
         }
     self.penUp()
     }
-    func hairball(withXcor: Double, withYcor: Double) {
+    func hairball(withXcor: Double, withYcor: Double, withScale: Int) {
         for _ in 1...15 {
             // Go to
             self.goto(withXcor, withYcor)
@@ -27,8 +27,8 @@ public extension Tortoise {
             // Set heading
             self.setHeading(heading)
             // Wave
-            self.curve(withSides: 100, withSize: size, drawSides: 20)
-            self.curve(withSides: -100, withSize: size, drawSides: 20)
+            self.curve(withSides: 100, withSize: size, drawSides: withScale)
+            self.curve(withSides: -100, withSize: size, drawSides: withScale)
         }
     }
 }
