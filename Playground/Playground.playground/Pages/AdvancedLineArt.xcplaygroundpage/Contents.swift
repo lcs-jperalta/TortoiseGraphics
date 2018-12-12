@@ -8,6 +8,7 @@ canvas.frameRate = 120
 canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
-
-    }
+// Drawing
+canvas.drawing { turtle in
+    
 }

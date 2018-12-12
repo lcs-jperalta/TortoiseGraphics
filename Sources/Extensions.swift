@@ -31,4 +31,9 @@ public extension Tortoise {
             self.curve(withSides: -100, withSize: size, drawSides: withScale)
         }
     }
+    func randomTriangle(withXcor: Double, withYcor: Double, withSize size: Int) {
+        self.goto(withXcor, withYcor)
+        //let hypotenuse = 
+
+    }
 }

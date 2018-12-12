@@ -16,7 +16,6 @@ canvas.drawing { turtle in
     turtle.hairball(withXcor: 190, withYcor: 200, withScale: 5)
     turtle.hairball(withXcor: 230, withYcor: 10, withScale: 10)
     turtle.hairball(withXcor: 20, withYcor: 190, withScale: 15)
-    turtle.
     }
     
 
