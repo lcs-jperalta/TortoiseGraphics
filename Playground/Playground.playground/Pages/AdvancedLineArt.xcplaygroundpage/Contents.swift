@@ -14,6 +14,7 @@ canvas.drawing { turtle in
     // Draw lineBalls
     turtle.penDown()
     turtle.lineBall(withXcor: 100, withYcor: 100, withSides: 3, withSize: 40)
+    turtle.lineBall(withXcor: 10, withYcor: 90, withSides: 7, withSize: 20)
     
     // Draw a dashed circle
     // Go to point

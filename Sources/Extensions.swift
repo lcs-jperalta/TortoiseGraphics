@@ -32,6 +32,7 @@ public extension Tortoise {
         }
     }
     func lineBall(withXcor: Double, withYcor: Double, withSides: Int, withSize: Int) {
+        self.goto(withXcor, withYcor)
         for _ in 1...withSides {
             self.forward(Double(withSize))
             self.left((((Double(withSides) - 2) * 180) / Double(withSides)) / 2)
