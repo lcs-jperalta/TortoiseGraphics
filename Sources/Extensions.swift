@@ -49,8 +49,9 @@ public extension Tortoise {
             // Draw a random line length
             let distance = self.random(withSize)
             self.forward(distance)
-            if distance <= 10 {
-                self.forward(10)
+            // Make line length bigger than 1
+            if distance <= 1 {
+                self.forward(1)
             }
 
             // Go back to centre of canvas and original heading

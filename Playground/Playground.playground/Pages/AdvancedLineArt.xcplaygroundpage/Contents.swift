@@ -30,9 +30,11 @@ canvas.drawing { turtle in
         turtle.right(5)
     }
     
-    // Draw lineExplosion
+    // Draw lineExplosion (stars)
     turtle.lineExplosion(withXcor: 220, withYcor: 220, withSize: 100)
-    turtle.lineExplosion(withXcor: 200, withYcor: 150, withSize: 5)
+    turtle.lineExplosion(withXcor: 200, withYcor: 120, withSize: 5)
+    turtle.lineExplosion(withXcor: 100, withYcor: 110, withSize: 5)
+    turtle.lineExplosion(withXcor: 120, withYcor: 220, withSize: 5)
     
     // Hide turtle
     turtle.hideTortoise()
