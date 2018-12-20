@@ -13,8 +13,10 @@ PlaygroundPage.current.liveView = canvas
 canvas.drawing { turtle in
     // Draw lineBalls
     turtle.penDown()
-    turtle.lineBall(withXcor: 100, withYcor: 100, withSides: 3, withSize: 40)
-    turtle.lineBall(withXcor: 10, withYcor: 90, withSides: 7, withSize: 20)
+    turtle.lineBall(withXcor: 30, withYcor: 0, withSides: 3, withSize: 20)
+    turtle.lineBall(withXcor: 40, withYcor: -90, withSides: 7, withSize: 10)
+    turtle.lineBall(withXcor: -100, withYcor: 30, withSides: 8, withSize: 35)
+    turtle.lineBall(withXcor: -200, withYcor: -120, withSides: 4, withSize: 25)
     
     // Draw a dashed circle
     // Go to point

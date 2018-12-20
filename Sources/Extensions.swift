@@ -32,7 +32,13 @@ public extension Tortoise {
         }
     }
     func lineBall(withXcor: Double, withYcor: Double, withSides: Int, withSize: Int) {
+        // Go to position
+        self.penUp()
         self.goto(withXcor, withYcor)
+        self.penDown()
+
+        // Create lineBall
+        self.setH(self.random(360))
         for _ in 1...withSides {
             self.forward(Double(withSize))
             self.left((((Double(withSides) - 2) * 180) / Double(withSides)) / 2)
@@ -54,11 +60,9 @@ public extension Tortoise {
             if distance <= 1 {
                 self.forward(1)
             }
-
-            // Go back to centre of canvas and original heading
+            // Go back to centre
             self.penUp()
             self.goto(withXcor, withYcor)
-            self.setHeading(0)
             self.penDown()
         }
     }
