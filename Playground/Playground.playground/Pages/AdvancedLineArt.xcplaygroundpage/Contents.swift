@@ -29,6 +29,7 @@ canvas.drawing { turtle in
     turtle.penDown()
     turtle.setHeading(0)
     // Draw circle
+    turtle.penSize(3)
     for _ in 1...36 {
         turtle.penUp()
         turtle.forward(22.5)
@@ -39,10 +40,14 @@ canvas.drawing { turtle in
     }
     
     // Draw lineExplosion (stars)
+    turtle.penSize(1)
     turtle.lineExplosion(withXcor: 220, withYcor: 220, withSize: 100)
     turtle.lineExplosion(withXcor: 200, withYcor: 120, withSize: 5)
     turtle.lineExplosion(withXcor: 100, withYcor: 110, withSize: 5)
     turtle.lineExplosion(withXcor: 120, withYcor: 220, withSize: 5)
+    turtle.lineExplosion(withXcor: 0, withYcor: 200, withSize: 5)
+    turtle.lineExplosion(withXcor: 200, withYcor: 0, withSize: 5)
+    turtle.lineExplosion(withXcor: 170, withYcor: -200, withSize: 5)
     
     // Hide turtle
     turtle.hideTortoise()
