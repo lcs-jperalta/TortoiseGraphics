@@ -38,7 +38,7 @@ public extension Tortoise {
         self.penDown()
 
         // Create lineBall
-        self.setH(self.random(360))
+        self.setHeading(self.random(360 / Double(withSides)))
         for _ in 1...withSides {
             self.forward(Double(withSize))
             self.left((((Double(withSides) - 2) * 180) / Double(withSides)) / 2)

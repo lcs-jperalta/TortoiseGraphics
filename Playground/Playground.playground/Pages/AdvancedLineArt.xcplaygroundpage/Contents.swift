@@ -15,14 +15,19 @@ canvas.drawing { turtle in
     turtle.penDown()
     turtle.lineBall(withXcor: 30, withYcor: 0, withSides: 3, withSize: 20)
     turtle.lineBall(withXcor: 40, withYcor: -90, withSides: 7, withSize: 10)
-    turtle.lineBall(withXcor: -100, withYcor: 30, withSides: 8, withSize: 35)
+    turtle.lineBall(withXcor: -230, withYcor: 20, withSides: 8, withSize: 35)
     turtle.lineBall(withXcor: -200, withYcor: -120, withSides: 4, withSize: 25)
+    turtle.lineBall(withXcor: 10, withYcor: -200, withSides: 5, withSize: 30)
+    turtle.lineBall(withXcor: -80, withYcor: 30, withSides: 6, withSize: 10)
+    turtle.lineBall(withXcor: -130, withYcor: 100, withSides: 10, withSize: 20)
+    turtle.lineBall(withXcor: -80, withYcor: -90, withSides: 9, withSize: 25)
     
     // Draw a dashed circle
     // Go to point
     turtle.penUp()
     turtle.goto(-450, -125)
     turtle.penDown()
+    turtle.setHeading(0)
     // Draw circle
     for _ in 1...36 {
         turtle.penUp()
